@@ -1,0 +1,10 @@
+vaggrant up 
+touch .env
+vim .env 
+USER_EMAIL
+USER_NAME
+GIT_REPOSITORY
+GIT_HOST=github.com
+ssh-keygen -f githosting_rsa
+apres tu ajoutes sur github
+vagrant rsync && vagrant provision
